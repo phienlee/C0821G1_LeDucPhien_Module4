@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="dictionary" target="1.8" />
+      <module name="dictionary.main" target="1.8" />
+      <module name="dictionary.test" target="1.8" />
+      <module name="spring_greeting.main" target="1.8" />
+      <module name="spring_greeting.test" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
