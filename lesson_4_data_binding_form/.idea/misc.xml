@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/exercises/mail_setting" />
+    <file type="web" url="file://$PROJECT_DIR$/practises/_01_form_and_data_binding" />
+    <file type="web" url="file://$PROJECT_DIR$/practises/_02_login" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
