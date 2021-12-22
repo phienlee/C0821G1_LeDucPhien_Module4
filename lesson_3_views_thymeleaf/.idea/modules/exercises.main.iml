@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="com:codegym:configuration:hibernate.conf.xml" value="3c5c905f-401c-43b3-b0ad-4ec95cb2b660" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/../../exercises/src/main/java/com/codegym/configuration/hibernate.conf.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>

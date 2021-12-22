@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54b8a15c-0ee7-4134-90bd-0e8da48430b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/lession_5_orn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/exercises.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/lesson_3_views_thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/modules/exercises.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/practises/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/lesson_6_JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/java/com/example/blog/BlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/java/com/example/blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/java/com/example/blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/java/com/example/blog/repository/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/java/com/example/blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/java/com/example/blog/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/exercises/blog/src/test/java/com/example/blog/BlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/configuration/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/configuration/AppInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/repository/ICustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/repository/IGeneralRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/service/ICustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/classes/java/main/com/codegym/cms/service/IGeneralService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/libs/customer_management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/repository/IGeneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/java/com/codegym/cms/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson_6_JPA/practises/customer_management/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/src/main/java/com/codegym/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/exercises/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/practises/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson_3_views_thymeleaf/practises/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson_4_data_binding_form/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson_4_data_binding_form/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/customer-management">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="22eAmfBdq5EcTPOKPtswRU590b5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b8a15c-0ee7-4134-90bd-0e8da48430b3" name="Changes" comment="" />
+      <created>1640187840258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640187840258</updated>
+      <workItem from="1640187842141" duration="106000" />
+      <workItem from="1640189422194" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

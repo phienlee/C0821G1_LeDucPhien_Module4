@@ -1,10 +1,23 @@
 package com.codegym.model;
 
+import javax.persistence.*;
+
+@Entity
 public class Product {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
     private Integer id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "price")
     private Double price;
+
+    @Column(name = "description")
     private String description;
+
+    @Column(name = "publish")
     private String publish;
 
     public Product() {
