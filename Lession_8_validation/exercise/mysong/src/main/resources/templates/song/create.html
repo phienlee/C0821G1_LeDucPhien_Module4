@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head ></head>
+<body>
+<h3>Add Blog</h3>
+<div class="notify">
+    <div th:if="${message}">
+        <span th:text="${message}"></span>
+    </div>
+</div>
+
+<p>
+    <a th:href="@{/song}">
+        Back to blog list
+    </a>
+</p>
+<div id="form">
+    <form th:action="@{/song/save}" th:object="${song}"
+          method="POST" novalidate="novalidate">
+        <div>
+            <label>Id</label>
+        </div>
+        <input type="text" th:field="*{id}"/>
+        <p th:if="${#fields.hasErrors('id')}" th:errors="*{id}"></p>
+        <div>
+            <label>Name</label>
+        </div>
+        <div>
+            <input type="text" th:field="*{name}"/>
+            <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+        </div>
+        <div>
+            <label>Singer</label>
+        </div>
+        <div>
+            <input type="text" th:field="*{singer}"/>
+            <p th:if="${#fields.hasErrors('singer')}" th:errors="*{singer}"></p>
+        </div>
+        <div>
+            <label>Type of music</label>
+        </div>
+        <div>
+            <input type="text" th:field="*{typeOfMusic}"/>
+            <p th:if="${#fields.hasErrors('typeOfMusic')}" th:errors="*{typeOfMusic}"></p>
+        </div>
+        <button type="submit">save</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head></head>
+<body>
+<h3>View Blog</h3>
+<p>
+    <a th:href="@{/song}">
+        Back to song list
+    </a>
+</p>
+<div>
+    <h1 th:text="${song.getId()}"></h1>
+</div>
+<div>
+    <p th:text="${song.getName()}"></p>
+</div>
+<div>
+    <p th:text="${song.getTypeOfMusic()}"></p>
+</div>
+<div>
+    <p th:text="${song.getSinger()}"></p>
+</div>
+
+</body>
+</html>

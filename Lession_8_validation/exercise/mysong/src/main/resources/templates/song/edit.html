@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head></head>
+<title></title>
+<body>
+<h3>Edit Song</h3>
+<p>
+    <a th:href="@{/song}">
+        Back to song list
+    </a>
+</p>
+<div class="notify">
+    <div th:if="${message}">
+        <span th:text="${message}"></span>
+    </div>
+</div>
+<div id="form">
+    <form action="#" th:action="@{/song/edit}" th:object="${song}"
+          method="POST" novalidate="novalidate">
+        <div>
+            <label>Id</label>
+        </div>
+        <div>
+            <input type="text" readonly th:field="*{id}"/>
+            <p th:if="${#fields.hasErrors('id')}" th:errors="*{id}"></p>
+        </div>
+        <div>
+            <label>Title</label>
+        </div>
+        <div>
+            <input type="text" th:field="*{name}"/>
+            <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+        </div>
+        <div>
+            <label>Content</label>
+        </div>
+        <div>
+            <input type="text" th:field="*{singer}"/>
+            <p th:if="${#fields.hasErrors('singer')}" th:errors="*{singer}"></p>
+        </div>
+        <div>
+            <label>Kind Of Music</label>
+        </div>
+        <div>
+            <input type="text" th:field="*{typeOfMusic}"/>
+            <p th:if="${#fields.hasErrors('typeOfMusic')}" th:errors="*{typeOfMusic}"></p>
+        </div>
+        <input type="submit" value="Edit"/>
+    </form>
+</div>
+</body>
+</html>
