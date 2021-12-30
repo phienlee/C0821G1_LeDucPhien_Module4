@@ -35,8 +35,5 @@ public class BlogService implements IBlogService<Blog> {
         repository.deleteById(id);
     }
 
-    @Override
-    public Page<Blog> searchInTitle(String title, Pageable pageable) {
-        return repository.findByTitleContaining(title, pageable);
-    }
+
 }

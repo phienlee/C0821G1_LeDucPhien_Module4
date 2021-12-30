@@ -4,6 +4,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
 public class SongDTO {
+
     private Integer id;
     @NotBlank(message = "Tên bài hát không chứa các ký tự đặc biệt và tối đa 800 ký tự" )
     @Pattern(regexp = "^[a-zA-Z0-9 ]{1,800}$",message = "Tên bài hát không được chứa các ký tự đặc biệt và tối đa 800 ký tự")

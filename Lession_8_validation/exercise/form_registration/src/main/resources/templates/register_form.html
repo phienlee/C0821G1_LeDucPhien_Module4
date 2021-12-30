@@ -36,41 +36,30 @@
 <div align="center">
     <h1>User Registration</h1>
     <form action="#" th:action="@{/register}" th:object="${user}" method="post">
-        <label>Full Name:</label>
-        <input type="text" th:field="*{name}">
-        <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</span>
+        <label>ID:</label>
+        <input type="text" th:field="*{id}">
+        <span th:if="${#fields.hasErrors('id')}" th:errors="*{id}">ID Error</span>
         <br>
-        <label>Email:</label>
-        <input type="text" th:field="*{email}">
-        <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">email error</span>
+        <label>First Name:</label>
+        <input type="text" th:field="*{firstName}">
+        <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">First name error</span>
 
         <br>
-        <label>Password:</label>
-        <input type="password" th:field="*{password}">
-        <span th:if="${#fields.hasErrors('password')}" th:errors="*{password}">password error</span>
+        <label>Last Name:</label>
+        <input type="password" th:field="*{lastName}">
+        <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Last name error</span>
         <br>
-        <label>Birthday (yyyy-mm-dd):</label>
-        <input type="date" th:field="*{birthday}">
-        <span th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}">birthday error</span>
+        <label>Age:</label>
+        <input type="date" th:field="*{age}">
+        <span th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age error</span>
         <br>
-        <label> Profession: </label>
-        <select th:field="*{profession}">
-            <option th:each="p: ${professions}" th:value="${p}" th:text="${p}"></option>
-        </select>
-        <span th:if="${#fields.hasErrors('profession')}" th:errors="*{profession}">profession error</span>
+        <label> Phone: </label>
+        <input type="date" th:field="*{phoneNumber}">
+        <span th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}">Phone error</span>
         <br>
-        <label>Married?:</label>
-        <input type="checkbox" th:field="*{married}">
-        <span th:if="${#fields.hasErrors('married')}" th:errors="*{married}">married error</span>
-        <br>
-        <label>Gender:</label>
-        <input type="radio" th:field="*{gender}" value="Male">Male
-        <input type="radio" th:field="*{gender}" value="Female">Female
-        <span th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">gender error</span>
-        <br>
-        <label>Node:</label>
-        <textarea name="" id="" cols="25" rows="5" th:field="*{note}"></textarea>
-        <span th:if="${#fields.hasErrors('note')}" th:errors="*{note}">note error</span>
+        <label>Email:</label>
+        <input type="checkbox" th:field="*{email}">
+        <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error</span>
         <br>
         <button type="submit">Register</button>
     </form>

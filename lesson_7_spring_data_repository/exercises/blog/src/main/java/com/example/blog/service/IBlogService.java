@@ -15,5 +15,4 @@ public interface IBlogService<E> {
 
     void remove(Integer id);
 
-    Page<Blog> searchInTitle(String s, Pageable pageable);
 }
