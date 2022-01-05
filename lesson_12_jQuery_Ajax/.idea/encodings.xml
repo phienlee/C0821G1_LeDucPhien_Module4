@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/exercises/blog_ajax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercises/blog_ajax/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercises/demo_ajax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercises/demo_ajax/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercises/phone_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exercises/phone_manager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practises/phone_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practises/phone_manager/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

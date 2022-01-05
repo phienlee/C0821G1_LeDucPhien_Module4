@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="phone_manager" />
+        <module name="phone_manager (1)" />
+        <module name="blog_ajax" />
+        <module name="demo_ajax" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog_ajax" target="1.8" />
+      <module name="demo_ajax" target="1.8" />
+      <module name="phone_manager" target="1.8" />
+      <module name="phone_manager (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog_ajax" options="-parameters" />
+      <module name="demo_ajax" options="-parameters" />
+      <module name="phone_manager" options="-parameters" />
+      <module name="phone_manager (1)" options="-parameters" />
+    </option>
+  </component>
+</project>
