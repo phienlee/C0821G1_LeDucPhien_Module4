@@ -1,31 +1,37 @@
 package com.example.blog.model;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
+import javax.persistence.*;
 
 @Entity
+@Table(name = "blog")
 public class Blog {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String topic;
+
+    private String name;
+    @Column(columnDefinition = "date")
+    private String postDate;
     private String content;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id",nullable = false,referencedColumnName = "category_id")
+    private Category category;
 
     public Blog() {
     }
 
-    public Blog(Integer id, String topic, String content) {
+    public Blog(Integer id, String name, String postDate, String content, Category category) {
         this.id = id;
-        this.topic = topic;
+        this.name = name;
+        this.postDate = postDate;
         this.content = content;
-    }
-
-    public Blog(String topic, String content) {
-        this.topic = topic;
-        this.content = content;
+        this.category = category;
     }
 
     public Integer getId() {
@@ -36,12 +42,20 @@ public class Blog {
         this.id = id;
     }
 
-    public String getTopic() {
-        return topic;
+    public String getName() {
+        return name;
     }
 
-    public void setTopic(String topic) {
-        this.topic = topic;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPostDate() {
+        return postDate;
+    }
+
+    public void setPostDate(String postDate) {
+        this.postDate = postDate;
     }
 
     public String getContent() {
@@ -50,5 +64,13 @@ public class Blog {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }
