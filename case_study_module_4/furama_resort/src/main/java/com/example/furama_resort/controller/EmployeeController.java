@@ -8,13 +8,7 @@ import com.example.furama_resort.service.employee.PositionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import javax.validation.Valid;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/employees")
@@ -34,24 +28,19 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-    @GetMapping("/list")
-    public String getList() {
-        return "employee/list";
-    }
-
     @GetMapping("/")
     public String getIndex(Model model) {
         model.addAttribute("positions", positionService.findAll());
         model.addAttribute("departments", departmentService.findAll());
         model.addAttribute("educationDegrees", educationDegreeService.findAll());
         model.addAttribute("emList", employeeService.findAll());
-        return "index";
+        return "employee/index";
     }
 
     @PostMapping("/new-employee")
     public String addNewEmployee(@ModelAttribute("employee") Employee employee) {
         employeeService.save(employee);
-        return "redirect:/employees";
+        return "redirect:/employees/";
     }
 
 
@@ -62,5 +51,11 @@ public class EmployeeController {
         model.addAttribute("departments", departmentService.findAll());
         model.addAttribute("educationDegrees", educationDegreeService.findAll());
         return "employee/new";
+    }
+
+    @GetMapping(value = "/delete/{id}")
+    public String deleteEmployee(@PathVariable("id") Integer id) {
+        employeeService.deleteById(id);
+        return "redirect:/employees/";
     }
 }

@@ -1,7 +1,7 @@
 package com.example.furama_resort.service.employee.impl;
 
 import com.example.furama_resort.model.employee.EducationDegree;
-import com.example.furama_resort.repository.EducationDegreeRepository;
+import com.example.furama_resort.repository.employee.EducationDegreeRepository;
 import com.example.furama_resort.service.employee.EducationDegreeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

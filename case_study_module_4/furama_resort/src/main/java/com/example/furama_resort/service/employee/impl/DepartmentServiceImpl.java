@@ -1,7 +1,7 @@
 package com.example.furama_resort.service.employee.impl;
 
 import com.example.furama_resort.model.employee.Department;
-import com.example.furama_resort.repository.DepartmentRepository;
+import com.example.furama_resort.repository.employee.DepartmentRepository;
 import com.example.furama_resort.service.employee.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
