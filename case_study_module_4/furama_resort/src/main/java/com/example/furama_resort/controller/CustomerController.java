@@ -4,6 +4,7 @@ import com.example.furama_resort.model.customer.Customer;
 import com.example.furama_resort.repository.customer.CustomerRepository;
 import com.example.furama_resort.service.customer.CustomerService;
 import com.example.furama_resort.service.customer.TypeService;
+import com.sipios.springsearch.anotation.SearchSpec;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.domain.Specification;
